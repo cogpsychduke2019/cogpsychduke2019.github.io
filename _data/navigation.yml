@@ -1,22 +1,16 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Lesson Plans"
+    url: /lessonplans/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Syllabus"
+    url: /syllabus/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Wikipedia"
+    url: /wikipedia/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Duke Research"
+    url: /dukeresearch/
         
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+  - title: "Science Summary"
+    url: /summaries/
