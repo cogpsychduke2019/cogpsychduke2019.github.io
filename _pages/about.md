@@ -14,5 +14,7 @@ ABC
 # How can I contact the instructor?
 
 Christina Bejjani
+
 christina DOT bejjani @ duke.edu
+
 I usually respond to emails within 48 hours.
