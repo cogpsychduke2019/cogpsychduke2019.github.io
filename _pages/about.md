@@ -8,4 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-Here's where I'll put the description of the class & its modules
+# What is this course about?
+
+ABC
+
+# How can I contact the instructor?
+
+Christina Bejjani
+christina DOT bejjani @ duke.edu
+I usually respond to emails within 48 hours.
