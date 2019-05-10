@@ -12,3 +12,7 @@ redirect_from:
 For a pdf copy of the syllabus: ...
 
 Here's where I'd copy/paste the syllabus
+
+I'm going to try something new!
+
+<a href="http://cogpsychduke2019.github.io/_files/Yong2018.pdf">See this PDF</a>
