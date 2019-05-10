@@ -4,6 +4,26 @@ title: "Week 1 Lesson Plan"
 permalink: /week1.html/
 author_profile: true
 ---
+<link rel="stylesheet" href="https://cogpsychduke2019.github.io/files/scroll.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+<!-- Back to top button -->
+<a id="button"></a>
+
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 
 {% include base_path %}
 
@@ -58,56 +78,3 @@ To navigate to individual lesson plans:
 
 To return to the top of the page, click <A HREF="#toppage">here</A>.
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script>
-jQuery(document).ready(function() {
-var offset = 220;
-var duration = 500;
-jQuery(window).scroll(function() {
-if (jQuery(this).scrollTop() > offset) {
-jQuery('.back-to-top').fadeIn(duration);
-} else {
-jQuery('.back-to-top').fadeOut(duration);
-}
-});
-
-jQuery('.back-to-top').click(function(event) {
-event.preventDefault();
-jQuery('html, body').animate({scrollTop: 0}, duration);
-return false;
-})
-});
-</script>
-
-<style>
-div#page {
-max-width: 900px;
-margin-left: auto;
-margin-right: auto;
-padding: 20px;
-}
-
-.back-to-top {
-position: fixed;
-bottom: 2em;
-right: 50px;
-text-decoration: none;
-color: #42b7be;
-background-color: white;
-border-top: 2px solid #42b7be;
-border-bottom: 2px solid #42b7be;
-border-right: 2px solid #42b7be;
-border-left: 2px solid #42b7be;
-font-size: 30px;
-padding: 1em;
-display: none;
-}
-
-.back-to-top:hover {
-background-color: white;
-text-decoration: none;
-}
-</style>
-
-<a href="#" class="back-to-top">&#8593;</a>
-</script>
