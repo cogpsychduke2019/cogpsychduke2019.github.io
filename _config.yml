@@ -12,9 +12,9 @@ title_separator          : "-"
 name                     : &name "Instructor: Christina Bejjani"
 description              : &description "Summer Term I at Duke University"
 url                      : https://cogpsychduke2019.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : #"" the subpath of your site, e.g. "/blog"
 repository               : "cogpsychduke2019.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "https://people.duke.edu/~cb383/cogpsychlogo.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
