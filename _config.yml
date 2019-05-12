@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "PSY 102: Introduction to Cognitive Psychology"
+title                    : "PSY 102"
 title_separator          : "-"
 name                     : &name "Instructor: Christina Bejjani"
 description              : &description "Summer Term I at Duke University"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "PSY 102: Introduction to Cognitive Psychology"
+  name             : "Introduction to Cognitive Psychology"
   avatar           : "https://people.duke.edu/~cb383/cogpsychlogo.png"
   bio              : "How do psychologists study the mind & how it works?"
   location         : "Durham, NC"
