@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "PSY 102"
+title                    : "PSY 102 at Duke"
 title_separator          : "-"
 name                     : &name "Instructor: Christina Bejjani"
 description              : &description "Summer Term I at Duke University"
